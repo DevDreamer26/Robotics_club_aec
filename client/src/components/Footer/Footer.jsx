@@ -34,7 +34,7 @@ const Footer = () => {
                 <a href="#"><FaFacebook /> Facebook</a>
               </li>
               <li className="menu-item menu-item-type-post_type menu-item-object-page">
-                <a href="#"><FaInstagram /> Instagram </a>
+                <a href="https://www.instagram.com/roboclubaec/" target='_blank'><FaInstagram /> Instagram </a>
               </li>
               <li className="menu-item menu-item-type-post_type menu-item-object-page">
                 <a href="#"><FaTwitter /> Twitter</a>
@@ -86,7 +86,7 @@ const Footer = () => {
           <div className="footer-call-to-action">
             <h2 className="footer-call-to-action-title"> You Call Us</h2>
             <p className="footer-call-to-action-link-wrapper"> <a className="footer-call-to-action-link" href="tel:+916002920374" target="_self"><IoCall /> +91 6002920374 </a></p>
-            <p className="footer-call-to-action-link-wrapper"> <a className="footer-call-to-action-link" href="mailto:a@gmail.com" target="_self"><IoMail /> roboclub@aec.ac.in </a></p>
+            <p className="footer-call-to-action-link-wrapper"> <a className="footer-call-to-action-link" href="mailto:a@gmail.com" target="_self"><IoMail /> aec.roboclub@gmail.com </a></p>
           </div>
         </div>
        
