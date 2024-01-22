@@ -1,33 +1,37 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { BrowserRouter, Routes, Route, } from "react-router-dom"
 
+import './App.css'
+import Home from "./pages/Home"
+import Navbar from "./components/Navbar/Navbar"
+import Footer from "./components/Footer/Footer"
+import About from "./components/About/About"
+import Resources from "./components/Resources/Resources"
+import Gallery from "./components/Gallery/Gallery"
+import Events from "./components/Events/Events"
+import Team23_24 from "./components/Team/Team_2023_2024/Team23_24"
+import Achievements from "./components/Achievements/Achievements"
+import Contact from "./components/Contact/Contact"
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          {/* <Route path="/gallery" element={<Gallery />} /> */}
+          <Route path="/events" element={<Events />} />
+          {/* <Route path="/resources" element={<Resources />} /> */}
+          <Route path="/team" element={<Team23_24 />} />
+          <Route path="/achievements" element={<Achievements />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+
+
+      </BrowserRouter>
+      <Footer />
     </>
   )
 }

@@ -1,0 +1,61 @@
+.achievements-main h2 {
+    font-size: 2.8rem;
+    text-align: center;
+    margin: 1rem;
+  }
+  
+  .achievements-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    justify-content: center; 
+  }
+  
+  div.achievements {
+    margin: 6px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; 
+  }
+  
+  div.achievements:hover {
+    border: 1px solid #777;
+  }
+  
+  div.achievements img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  div.desc h3{
+    font-size: 2rem;  }
+  div.desc p {
+    font-size:1.5rem;
+  }
+  .responsive {
+    width: 24.99999%;
+    box-sizing: border-box; /
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  

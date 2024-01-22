@@ -1,42 +1,57 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Nova+Square&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+body {
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Gruppo", sans-serif;
+  background-color: #f8f8f8;
+}
+/*------------global-----------*/
+.container {
+  max-width: 85%;
+  margin: auto;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.flexSB {
+  display: flex;
+  justify-content: space-between;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.flexSB a {
+  text-decoration: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.flexSB li {
+  list-style-type: none;
 }
-
-.card {
-  padding: 2em;
+.row {
+  width: 50%;
 }
-
-.read-the-docs {
-  color: #888;
+.flexSB button {
+  z-index: 11111;
+  padding: 15px 30px;
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: 600;
+  border: none;
+  margin: 30px 10px 0 0;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: 0 24px 36px -11px rgb(0 0 0 / 9%);
+  transition: 0.5s;
+}
+.flexSB button i {
+  margin-left: 20px;
+}
+.flexSB button:hover {
+  box-shadow: none;
+}
+.primary-btn {
+  background-color: #000000;
+  color: #fff;
 }
