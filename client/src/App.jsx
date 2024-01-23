@@ -1,23 +1,22 @@
-import { BrowserRouter, Routes, Route, } from "react-router-dom"
+import {  Routes, Route } from "react-router-dom";
 
-import './App.css'
-import Home from "./pages/Home"
-import Navbar from "./components/Navbar/Navbar"
-import Footer from "./components/Footer/Footer"
-import About from "./components/About/About"
-import Resources from "./components/Resources/Resources"
-import Gallery from "./components/Gallery/Gallery"
-import Events from "./components/Events/Events"
-import Team23_24 from "./components/Team/Team_2023_2024/Team23_24"
-import Achievements from "./components/Achievements/Achievements"
-import Contact from "./components/Contact/Contact"
-import Activity from "./components/Activity/Activity"
+import "./App.css";
+import Home from "./pages/Home";
+import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
+import About from "./components/About/About";
+// import Resources from "./components/Resources/Resources";
+// import Gallery from "./components/Gallery/Gallery";
+import Events from "./components/Events/Events";
+import Team23_24 from "./components/Team/Team_2023_2024/Team23_24";
+import Achievements from "./components/Achievements/Achievements";
+import Contact from "./components/Contact/Contact";
+import Activity from "./components/Activity/Activity";
+import Term from "./components/Terms/Term";
 function App() {
-
-
   return (
-    <>
-      <BrowserRouter>
+  
+      <>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -29,13 +28,13 @@ function App() {
           <Route path="/team" element={<Team23_24 />} />
           <Route path="/achievements" element={<Achievements />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/term" element={<Term />} />
         </Routes>
 
-
-      </BrowserRouter>
-      <Footer />
-    </>
-  )
+        <Footer />
+      </>
+    
+  );
 }
 
-export default App
+export default App;

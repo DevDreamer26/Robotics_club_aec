@@ -25,10 +25,10 @@ const About = () => {
   return (
     <>
       <div className="main-about">
-        <div class="about-section">
-          <div class="inner-container">
+        <div className="about-section">
+          <div className="inner-container">
             <h1>About Us</h1>
-            <p class="text">
+            <p className="text">
               Established on 09-08-2008, the Robotics Club stands as one of the
               oldest clubs of the Institution. <br /> <br />
               {showFullContent ? (
@@ -53,7 +53,7 @@ const About = () => {
                 </button>
               )}
             </p>
-            <div class="skills">
+            <div className="skills">
               <Link to="/team">
                 <button>
                   <span>Team</span>
