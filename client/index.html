@@ -1,13 +1,55 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/images/logo.jpeg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Robotics Club of Assam Engineering College</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/images/logo.jpeg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Robotics Club of Assam Engineering College</title>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+
+
+
+
+  <div id="preloader-main"></div>
+
+  <button id="scrollTopBtn" title="Go to Top">Top</button>
+  <script>
+
+    // Preloader
+    var loader = document.getElementById("preloader-main");
+    window.addEventListener("load", function () {
+      loader.style.display = "none";
+    })
+    // Scroll to top button
+
+    document.addEventListener("DOMContentLoaded", function () {
+      var scrollTopBtn = document.getElementById("scrollTopBtn");
+
+      window.addEventListener("scroll", function () {
+        // Show the button when scrolling down
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          scrollTopBtn.style.display = "block";
+        } else {
+          scrollTopBtn.style.display = "none";
+        }
+      });
+
+      scrollTopBtn.addEventListener("click", function () {
+        // Scroll to the top smoothly
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      });
+    });
+
+  </script>
+
+</body>
+
 </html>

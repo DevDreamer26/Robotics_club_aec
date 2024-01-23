@@ -35,6 +35,9 @@ const Navbar = () => {
               <NavLink to="/events">Events</NavLink>
             </li>
             <li>
+              <NavLink to="/activity">Club Activity</NavLink>
+            </li>
+            <li>
               <NavLink to="/achievements">Achievements</NavLink>
             </li>
             {/* <li>

@@ -1,0 +1,28 @@
+/* Scroll to top button */
+#scrollTopBtn {
+    font-family: "Gruppo", sans-serif;
+    display: none;
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+    background-color: #000000; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+
+
+  /* Preloader style section */
+  #preloader-main{
+    background: #000000 url(/images/preloader.gif) no-repeat center center;
+    background-size: 25%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  
+  }

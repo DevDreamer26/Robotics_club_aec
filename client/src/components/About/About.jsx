@@ -59,11 +59,11 @@ const About = () => {
                   <span>Team</span>
                 </button>
               </Link>
-              {/* <Link to="/gallery">
+              <Link to="/activity">
                 <button>
-                  <span>Gallery</span>
+                  <span>Activity</span>
                 </button>
-              </Link> */}
+              </Link>
               <Link to="/events">
                 <button>
                   <span>Events</span>

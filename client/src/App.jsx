@@ -11,6 +11,7 @@ import Events from "./components/Events/Events"
 import Team23_24 from "./components/Team/Team_2023_2024/Team23_24"
 import Achievements from "./components/Achievements/Achievements"
 import Contact from "./components/Contact/Contact"
+import Activity from "./components/Activity/Activity"
 function App() {
 
 
@@ -23,6 +24,7 @@ function App() {
           <Route path="/about" element={<About />} />
           {/* <Route path="/gallery" element={<Gallery />} /> */}
           <Route path="/events" element={<Events />} />
+          <Route path="/activity" element={<Activity />} />
           {/* <Route path="/resources" element={<Resources />} /> */}
           <Route path="/team" element={<Team23_24 />} />
           <Route path="/achievements" element={<Achievements />} />

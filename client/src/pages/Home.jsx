@@ -7,6 +7,7 @@ import Team23_24 from '../components/Team/Team_2023_2024/Team23_24'
 import Achievements from '../components/Achievements/Achievements'
 import Events from '../components/Events/Events'
 import Contact from '../components/Contact/Contact'
+import Activity from '../components/Activity/Activity'
 const Home = () => {
     return (
         <>
@@ -17,6 +18,7 @@ const Home = () => {
            
             <Achievements />
             <Events/>
+            <Activity/>
             {/* <Resources /> */}
             {/* <Team23_24 /> */}
             <Contact/>
