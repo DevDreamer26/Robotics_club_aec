@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Nova+Square&display=swap");
+
 .section-hero {
   /* background-image: url("https://img.freepik.com/free-vector/black-background-with-focus-spot-light_1017-27230.jpg?w=1380&t=st=1705779118~exp=1705779718~hmac=8a716f51d7d27fe6e7876fff28144d082401e816d2725cbbe6b0f5fc372c52dd"); */
   /* background-color: #fff1e0d9; */
@@ -8,7 +9,6 @@
 }
 
 .hero {
-  /* font-family: "Nova Square", sans-serif; */
   font-family: "Gruppo", sans-serif;
 
   display: flex;
@@ -31,7 +31,7 @@
 }
 
 .hero-description {
-    color: #ffffff;
+  color: #ffffff;
   font-size: 2rem;
   margin-bottom: 4.8rem;
 }
@@ -110,6 +110,7 @@
     font-size: 1rem;
     margin-bottom: 3rem;
   }
+
   .btn {
     width: 100%;
     margin-bottom: 1rem;
