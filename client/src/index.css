@@ -17,7 +17,7 @@
 
 
   /* Preloader style section */
-  #preloader-main{
+  /* #preloader-main{
     background: #000000 url(/images/preloader.gif) no-repeat center center;
     background-size: 25%;
     height: 100vh;
@@ -25,4 +25,4 @@
     position: fixed;
     z-index: 100;
   
-  }
+  } */
