@@ -18,7 +18,7 @@ const Home = () => {
            
             <Achievements />
             <Events/>
-            <Activity/>
+            {/* <Activity/> */}
             {/* <Resources /> */}
             {/* <Team23_24 /> */}
             <Contact/>
