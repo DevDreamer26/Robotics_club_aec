@@ -83,7 +83,7 @@ const Team23_24 = () => {
     {
       id: 14,
       name: "Bhabartha Prakash Gogoi",
-      logo: "images/Core members/23-24/Bhabartha.png",
+      logo: "images/Core members/23-24/Bhabartha-modified.png",
       role: "Makerspace Coordinator",
     },
     {
