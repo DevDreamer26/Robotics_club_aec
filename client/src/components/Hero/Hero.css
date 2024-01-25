@@ -4,6 +4,8 @@
   /* background-image: url("https://img.freepik.com/free-vector/black-background-with-focus-spot-light_1017-27230.jpg?w=1380&t=st=1705779118~exp=1705779718~hmac=8a716f51d7d27fe6e7876fff28144d082401e816d2725cbbe6b0f5fc372c52dd"); */
   /* background-color: #34056c; */
   background: radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 90.2%);
+  /* background: linear-gradient(to bottom, #87CEEB, #4682B4); */
+ 
 
   /* background-image: url("/images/bg.jpeg"); */
   background-repeat: no-repeat;
