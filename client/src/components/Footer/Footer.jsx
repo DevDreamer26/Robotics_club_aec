@@ -111,7 +111,7 @@ const Footer = () => {
                 </p>
                 <p className="footer-call-to-action-link-wrapper">
                   {' '}
-                  <Link to="mailto:roboclub@aec.ac.in@gmail.com">
+                  <Link to="mailto:roboclub@aec.ac.in">
                     <IoMail />roboclub@aec.ac.in{' '}
                   </Link>
                 </p>
