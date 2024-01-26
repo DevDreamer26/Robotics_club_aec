@@ -1,10 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 import { FaFacebook, FaInstagram, FaYoutube, FaLinkedin } from 'react-icons/fa';
 import { IoCall, IoMail } from 'react-icons/io5';
 import './Footer.css';
 
 const Footer = () => {
+  const navigate = useNavigate();
+
+  const handleLinkClick = (path) => {
+    navigate.push(path);
+    window.scrollTo(0, 0);
+  };
   return (
     <>
       <div className="pg-footer">
@@ -76,19 +83,19 @@ const Footer = () => {
                 <h2 className="footer-menu-name"> Quick Links</h2>
                 <ul id="menu-quick-links" className="footer-menu-list">
                   <li className="menu-item menu-item-type-custom menu-item-object-custom">
-                    <Link to="/">Home</Link>
+                    <Link onClick={() => handleLinkClick('/')} to="/">Home</Link>
                   </li>
                   <li className="menu-item menu-item-type-custom menu-item-object-custom">
-                    <Link to="/about">About us</Link>
+                    <Link onClick={() => handleLinkClick('/about')} to="/about">About us</Link>
                   </li>
                   <li className="menu-item menu-item-type-post_type menu-item-object-page">
-                    <Link to="/team">Team</Link>
+                    <Link onClick={() => handleLinkClick('/team')} to="/team">Team</Link>
                   </li>
                   <li className="menu-item menu-item-type-post_type menu-item-object-page">
-                    <Link to="/events">Events</Link>
+                    <Link onClick={() => handleLinkClick('/events')} to="/events">Events</Link>
                   </li>
                   <li className="menu-item menu-item-type-post_type_archive menu-item-object-customer">
-                    <Link to="/contact">Contact</Link>
+                    <Link onClick={() => handleLinkClick('/contact')} to="/contact">Contact</Link>
                   </li>
                 </ul>
               </div>
