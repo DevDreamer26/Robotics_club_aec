@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, Navigate } from 'react-router-dom';
 import { useNavigate } from "react-router-dom";
 import { FaFacebook, FaInstagram, FaYoutube, FaLinkedin } from 'react-icons/fa';
 import { IoCall, IoMail } from 'react-icons/io5';
@@ -83,7 +83,7 @@ const Footer = () => {
                 <h2 className="footer-menu-name"> Quick Links</h2>
                 <ul id="menu-quick-links" className="footer-menu-list">
                   <li className="menu-item menu-item-type-custom menu-item-object-custom">
-                    <Link onClick={() => handleLinkClick('/')} to="/">Home</Link>
+                    <Link onClick={() => handleLinkClick('/about')}  to="/">Home</Link>
                   </li>
                   <li className="menu-item menu-item-type-custom menu-item-object-custom">
                     <Link onClick={() => handleLinkClick('/about')} to="/about">About us</Link>
