@@ -59,9 +59,10 @@ header ul li a:hover {
   color: #e67e22;
 }
 .start {
-  background-color: #000000;
+  background-color: #4c4c4c;
   padding: 30px 70px;
   color: #ff0000;
+  font-size: 2rem;
   clip-path: polygon(10% 0%, 100% 0, 100% 100%, 0% 100%);
 }
 .toggle {
@@ -85,7 +86,7 @@ header ul li a:hover {
   }
   .toggle {
     display: block;
-    background: none;
+    background: #4c4c4c;
     color: #ffffff;
     font-size: 30px;
     position: absolute;

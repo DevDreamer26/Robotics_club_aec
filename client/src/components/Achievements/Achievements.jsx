@@ -37,7 +37,7 @@ const Achievements = () => {
       src: 'images/achievements/GIMT.png',
       alt: 'Achievements GIMT',
       title: 'Techmilap 2022 (GIMT)',
-      description: '1st Position in Robowar and Robo',
+      description: '1st Position in Robowar and Robo Soccer',
     },
   ];
 

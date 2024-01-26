@@ -34,6 +34,7 @@ const Navbar = () => {
             <li>
               <NavLink to="/events">Events</NavLink>
             </li>
+            
             <li>
               <NavLink to="/activity">Club Activity</NavLink>
             </li>
@@ -46,13 +47,13 @@ const Navbar = () => {
             <li>
               <NavLink to="/team">Team</NavLink>
             </li>
-            {/* <li>
+            <li>
               <NavLink to="/contact">Contact</NavLink>
-            </li> */}
+            </li>
           </ul>
           <div className="start">
             <div className="button">
-              <Link to="/contact">Contact Us</Link>{" "}
+              <Link to="/raec">R-AEC 6.0</Link>{" "}
             </div>
           </div>
           <button className="toggle" onClick={() => setClick(!click)}>

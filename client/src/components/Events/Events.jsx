@@ -29,7 +29,7 @@ const Events = () => {
   return (
     <>
    
-    <h1 style={{textAlign:"center",margin:"1rem"}}>R-AEC 6.0</h1>
+    <h1 style={{textAlign:"center",margin:"1rem"}}>Events under Robo Club</h1>
     <div className="events-container">
     <div className="raec-about">
     R-AEC is the committee responsible for organizing robotics events under the banner of Udbhavanam. R-AEC organizes various events like Robo-Sumo, Robo-Soccer, Pick & Place, Line Follower, Maze solver etc., every year in a different and exciting way. This year, R-AEC is thrilled to host the following events.
