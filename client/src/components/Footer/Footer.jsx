@@ -122,7 +122,7 @@ const Footer = () => {
             <div className="footer-copyright-wrapper">
               <p className="footer-copyright-text">
                 <Link to="https://bidyasagar.me" target="_blank">
-                  ©2024. | Designed and Developed By: Bidyasagar Hazarika | All rights reserved.
+                  ©2024. | Robotics Club Assam Engineering College | All rights reserved.
                 </Link>
               </p>
             </div>
